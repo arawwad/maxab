@@ -15,6 +15,9 @@ const LogoContainer = styled.div`
 const NavItemsContainer = styled.div`
     margin-right: 50px;
     margin-top: 50px;
+    @media (max-width: 768px) {
+        display: none;
+    } 
 `
 
 const NavItem = styled.a`

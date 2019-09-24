@@ -20,15 +20,15 @@ const RightContainer = styled.div`
     padding-left: 29px;
 `
 
-const Box = styled.div`
-    height: 800px;
-    width: 500px;
-    border: solid 2px #e9475b;
-    position: absolute;
-    z-index: -1;
-    left: -300px;
-    top: 0;
- `
+// const Box = styled.div`
+//     height: 800px;
+//     width: 500px;
+//     border: solid 2px #e9475b;
+//     position: absolute;
+//     z-index: -1;
+//     left: -300px;
+//     top: 0;
+//  `
 
 
 const ReversedRow = ({ row }) => (
@@ -36,7 +36,7 @@ const ReversedRow = ({ row }) => (
         <div className="row" style={{ display: 'flex' }}>
             <CenteredText className="six columns">
                 <Title size="20px">{row.title}</Title>
-                <Paragraph color="#656e77">{row.text}</Paragraph>
+                <Paragraph open color="#656e77">{row.text}</Paragraph>
             </CenteredText>
             <RightContainer className="six columns">
                 {/* <Box /> */}

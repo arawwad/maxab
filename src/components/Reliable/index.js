@@ -33,16 +33,21 @@ const Photo = styled.img`
     height: ${props => props.height}%;
     top: ${props => props.top}%;
     left: ${props => props.left}%;
-    ::before {
-        content: '0';
-        width: ${props => props.width}%;
-        height: ${props => props.height}%;
-        border: 10px solid #fff;
+    border: 20px solid white;
+    :before {
+        content: '22';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 10px solid white;
+        left: 30px;
+        top: -30px;
+        z-index: -1;
     }
 `
 
 
-const photos = [{src: first, height: '30', width: '30', top: '10', left: '5'}, {src: second, height: '40', width: '15', top: '50', left: '5'}, {src: third, height: '60', width: '60', top: '35', left: '30'}]
+const photos = [{src: first, height: '30', width: '30', top: '10', left: '5'}, {src: second, height: '40', width: '15', top: '50', left: '5'}, {src: third, height: '60', width: '60', top: '40', left: '30'}]
 
 const Reliable = () => (
     <ReliableSection>

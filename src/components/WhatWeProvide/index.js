@@ -13,7 +13,7 @@ import panel3 from './panel-3.jpg';
 const Data = [{ img: panel1, title: 'Consolidation of Orders', text: 'By building an extentive logistics network we aim to avall access of groceries to all Egyptian communities.By building an extentive logistics network we aim to avall access of groceries to all Egyptian communities.By building an extentive logistics network we aim to avall access of groceries to all Egyptian communities.', reversed: false }, { img: panel2, title: 'Delivery any where in 24 hours', text: 'By building an extentive logistics network we aim to avall access of groceries to all Egyptian communities.By building an extentive logistics network we aim to avall access of groceries to all Egyptian communities.By building an extentive logistics network we aim to avall access of groceries to all Egyptian communities.', reversed: true }, { img: panel3, title: 'Price Reference', text: 'By building an extentive logistics network we aim to avall access of groceries to all Egyptian communities.By building an extentive logistics network we aim to avall access of groceries to all Egyptian communities.By building an extentive logistics network we aim to avall access of groceries to all Egyptian communities.', reversed: false }]
 
 const Container = styled.div`
-    width: 58vw;
+    width: 65vw;
     margin: 0 auto;
     padding-bottom: 50px;
 `

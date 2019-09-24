@@ -20,7 +20,7 @@ const RegularRow = ({ row }) => (
             </div>
             <CenteredText className="six columns">
                 <Title size="20px">{row.title}</Title>
-                <Paragraph color="#656e77">{row.text}</Paragraph>
+                <Paragraph open color="#656e77">{row.text}</Paragraph>
             </CenteredText>
         </div>
     </Fade>

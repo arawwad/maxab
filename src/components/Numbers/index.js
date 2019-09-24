@@ -24,6 +24,7 @@ const NumbersContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: flex-end;
 `
 
 const stats = [{number: 50, name: 'Lorem Ipsum', id: '1'},{number: 33, name: 'Lorem Ipsum', id: '2'}, {number: 59, name: 'Lorem Ipsum', id: '3'}, {number: 60, name: 'Lorem Ipsum', id: '4'}, {number: 50, name: 'Lorem Ipsum', id: '5'}, {number: 50, name: 'Lorem Ipsum', id: '6'}];
