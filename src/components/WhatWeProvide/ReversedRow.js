@@ -10,6 +10,7 @@ const CenteredText = styled.div`
     flex-direction: column;
     justify-content: center;
     min-height: 100%;
+    margin-top: 100px;
 `
 
 const RightContainer = styled.div`
@@ -18,6 +19,9 @@ const RightContainer = styled.div`
     position: relative;
     margin-left: 29px !important;
     padding-left: 29px;
+        @media (max-width: 768px) {
+        display: none;
+    }
 `
 
 // const Box = styled.div`
@@ -33,7 +37,7 @@ const RightContainer = styled.div`
 
 const ReversedRow = ({ row }) => (
     <Fade duration={1500} bottom>
-        <div className="row" style={{ display: 'flex' }}>
+        <div className="row">
             <CenteredText className="six columns">
                 <Title size="20px">{row.title}</Title>
                 <Paragraph open color="#656e77">{row.text}</Paragraph>

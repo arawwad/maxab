@@ -9,12 +9,14 @@ const CenteredText = styled.div`
     flex-direction: column;
     justify-content: center;
     min-height: 100%;
+    margin-top: 100px;
+
 `
 
 
 const RegularRow = ({ row }) => (
     <Fade duration={1500} bottom>
-        <div className="row" style={{display: 'flex'}}>
+        <div className="row">
             <div className="six columns">
                 <img style={{ maxWidth: '544px', width: '100%' }} src={row.img} alt="" />
             </div>
