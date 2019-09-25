@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Title = styled.h2`
     font-size: ${ props => props.size ? props.size : '46px' };
     text-align: ${ props => props.center ? 'center' : 'left' };
-    font-weight: 900;
+    font-weight: 400;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.28;

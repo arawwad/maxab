@@ -35,14 +35,14 @@ const Section = styled.section`
 const HeroText = styled.h1`
     font-family: Montserrat;
     font-size: 80px;
-    font-weight: 800;
+    font-weight: 400;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.22;
     letter-spacing: normal;
     color: #ffffff;
-    margin-top: 250px;
-    margin-left: 100px;
+    margin: 200px auto 0;
+    text-align:center;
     @media (max-width: 768px) {
         margin-left: 5px;
         font-size: 40px;
